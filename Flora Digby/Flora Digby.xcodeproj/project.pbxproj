@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83EC4CBC1A9115D20031C6D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EC4CBB1A9115D20031C6D5 /* main.m */; };
+		83EC4CBF1A9115D20031C6D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EC4CBE1A9115D20031C6D5 /* AppDelegate.m */; };
+		83EC4CC21A9115D20031C6D5 /* Flora_Digby.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 83EC4CC01A9115D20031C6D5 /* Flora_Digby.xcdatamodeld */; };
+		83EC4CC51A9115D20031C6D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EC4CC41A9115D20031C6D5 /* ViewController.m */; };
+		83EC4CC81A9115D20031C6D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83EC4CC61A9115D20031C6D5 /* Main.storyboard */; };
+		83EC4CCA1A9115D20031C6D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83EC4CC91A9115D20031C6D5 /* Images.xcassets */; };
+		83EC4CCD1A9115D20031C6D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83EC4CCB1A9115D20031C6D5 /* LaunchScreen.xib */; };
+		83EC4CD91A9115D30031C6D5 /* Flora_DigbyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EC4CD81A9115D30031C6D5 /* Flora_DigbyTests.m */; };
+		83EC4CE41A91180C0031C6D5 /* odyssey flyer jpg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83EC4CE31A91180C0031C6D5 /* odyssey flyer jpg.jpg */; };
+		83EC4CE91A9221520031C6D5 /* F.Digby2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83EC4CE61A9221520031C6D5 /* F.Digby2.jpg */; };
+		83EC4CEA1A9221520031C6D5 /* F.Digby3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83EC4CE71A9221520031C6D5 /* F.Digby3.jpg */; };
+		83EC4CEC1A9229220031C6D5 /* F.Digby1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83EC4CEB1A9229220031C6D5 /* F.Digby1.jpg */; };
+		83EC4CF01A92370D0031C6D5 /* MZTimerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EC4CEF1A92370D0031C6D5 /* MZTimerLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83EC4CD31A9115D30031C6D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83EC4CAE1A9115D20031C6D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83EC4CB51A9115D20031C6D5;
+			remoteInfo = "Flora Digby";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83EC4CB61A9115D20031C6D5 /* Flora Digby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flora Digby.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83EC4CBA1A9115D20031C6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83EC4CBB1A9115D20031C6D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83EC4CBD1A9115D20031C6D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		83EC4CBE1A9115D20031C6D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		83EC4CC11A9115D20031C6D5 /* Flora_Digby.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Flora_Digby.xcdatamodel; sourceTree = "<group>"; };
+		83EC4CC31A9115D20031C6D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		83EC4CC41A9115D20031C6D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		83EC4CC71A9115D20031C6D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83EC4CC91A9115D20031C6D5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		83EC4CCC1A9115D20031C6D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		83EC4CD21A9115D30031C6D5 /* Flora DigbyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flora DigbyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83EC4CD71A9115D30031C6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83EC4CD81A9115D30031C6D5 /* Flora_DigbyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Flora_DigbyTests.m; sourceTree = "<group>"; };
+		83EC4CE31A91180C0031C6D5 /* odyssey flyer jpg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "odyssey flyer jpg.jpg"; path = "../../../../Downloads/odyssey flyer jpg.jpg"; sourceTree = "<group>"; };
+		83EC4CE61A9221520031C6D5 /* F.Digby2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = F.Digby2.jpg; path = ../../../../Downloads/F.Digby2.jpg; sourceTree = "<group>"; };
+		83EC4CE71A9221520031C6D5 /* F.Digby3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = F.Digby3.jpg; path = ../../../../Downloads/F.Digby3.jpg; sourceTree = "<group>"; };
+		83EC4CEB1A9229220031C6D5 /* F.Digby1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = F.Digby1.jpg; sourceTree = SOURCE_ROOT; };
+		83EC4CEE1A92370D0031C6D5 /* MZTimerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZTimerLabel.h; path = ../../../CountdownTimeriOS/MZTimerLabel/MZTimerLabel/MZTimerLabel.h; sourceTree = "<group>"; };
+		83EC4CEF1A92370D0031C6D5 /* MZTimerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MZTimerLabel.m; path = ../../../CountdownTimeriOS/MZTimerLabel/MZTimerLabel/MZTimerLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83EC4CB31A9115D20031C6D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83EC4CCF1A9115D30031C6D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83EC4CAD1A9115D20031C6D5 = {
+			isa = PBXGroup;
+			children = (
+				83EC4CB81A9115D20031C6D5 /* Flora Digby */,
+				83EC4CD51A9115D30031C6D5 /* Flora DigbyTests */,
+				83EC4CB71A9115D20031C6D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83EC4CB71A9115D20031C6D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83EC4CB61A9115D20031C6D5 /* Flora Digby.app */,
+				83EC4CD21A9115D30031C6D5 /* Flora DigbyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83EC4CB81A9115D20031C6D5 /* Flora Digby */ = {
+			isa = PBXGroup;
+			children = (
+				83EC4CED1A9236EE0031C6D5 /* MZTimerLabel */,
+				83EC4CBD1A9115D20031C6D5 /* AppDelegate.h */,
+				83EC4CBE1A9115D20031C6D5 /* AppDelegate.m */,
+				83EC4CC31A9115D20031C6D5 /* ViewController.h */,
+				83EC4CC41A9115D20031C6D5 /* ViewController.m */,
+				83EC4CC61A9115D20031C6D5 /* Main.storyboard */,
+				83EC4CC91A9115D20031C6D5 /* Images.xcassets */,
+				83EC4CCB1A9115D20031C6D5 /* LaunchScreen.xib */,
+				83EC4CC01A9115D20031C6D5 /* Flora_Digby.xcdatamodeld */,
+				83EC4CB91A9115D20031C6D5 /* Supporting Files */,
+			);
+			path = "Flora Digby";
+			sourceTree = "<group>";
+		};
+		83EC4CB91A9115D20031C6D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83EC4CE21A91176D0031C6D5 /* Assets */,
+				83EC4CBA1A9115D20031C6D5 /* Info.plist */,
+				83EC4CBB1A9115D20031C6D5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83EC4CD51A9115D30031C6D5 /* Flora DigbyTests */ = {
+			isa = PBXGroup;
+			children = (
+				83EC4CD81A9115D30031C6D5 /* Flora_DigbyTests.m */,
+				83EC4CD61A9115D30031C6D5 /* Supporting Files */,
+			);
+			path = "Flora DigbyTests";
+			sourceTree = "<group>";
+		};
+		83EC4CD61A9115D30031C6D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83EC4CD71A9115D30031C6D5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83EC4CE21A91176D0031C6D5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				83EC4CEB1A9229220031C6D5 /* F.Digby1.jpg */,
+				83EC4CE61A9221520031C6D5 /* F.Digby2.jpg */,
+				83EC4CE71A9221520031C6D5 /* F.Digby3.jpg */,
+				83EC4CE31A91180C0031C6D5 /* odyssey flyer jpg.jpg */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		83EC4CED1A9236EE0031C6D5 /* MZTimerLabel */ = {
+			isa = PBXGroup;
+			children = (
+				83EC4CEE1A92370D0031C6D5 /* MZTimerLabel.h */,
+				83EC4CEF1A92370D0031C6D5 /* MZTimerLabel.m */,
+			);
+			name = MZTimerLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83EC4CB51A9115D20031C6D5 /* Flora Digby */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83EC4CDC1A9115D30031C6D5 /* Build configuration list for PBXNativeTarget "Flora Digby" */;
+			buildPhases = (
+				83EC4CB21A9115D20031C6D5 /* Sources */,
+				83EC4CB31A9115D20031C6D5 /* Frameworks */,
+				83EC4CB41A9115D20031C6D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flora Digby";
+			productName = "Flora Digby";
+			productReference = 83EC4CB61A9115D20031C6D5 /* Flora Digby.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83EC4CD11A9115D30031C6D5 /* Flora DigbyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83EC4CDF1A9115D30031C6D5 /* Build configuration list for PBXNativeTarget "Flora DigbyTests" */;
+			buildPhases = (
+				83EC4CCE1A9115D30031C6D5 /* Sources */,
+				83EC4CCF1A9115D30031C6D5 /* Frameworks */,
+				83EC4CD01A9115D30031C6D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83EC4CD41A9115D30031C6D5 /* PBXTargetDependency */,
+			);
+			name = "Flora DigbyTests";
+			productName = "Flora DigbyTests";
+			productReference = 83EC4CD21A9115D30031C6D5 /* Flora DigbyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83EC4CAE1A9115D20031C6D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Chicago Smart Business Solutions";
+				TargetAttributes = {
+					83EC4CB51A9115D20031C6D5 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					83EC4CD11A9115D30031C6D5 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 83EC4CB51A9115D20031C6D5;
+					};
+				};
+			};
+			buildConfigurationList = 83EC4CB11A9115D20031C6D5 /* Build configuration list for PBXProject "Flora Digby" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83EC4CAD1A9115D20031C6D5;
+			productRefGroup = 83EC4CB71A9115D20031C6D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83EC4CB51A9115D20031C6D5 /* Flora Digby */,
+				83EC4CD11A9115D30031C6D5 /* Flora DigbyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83EC4CB41A9115D20031C6D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83EC4CEA1A9221520031C6D5 /* F.Digby3.jpg in Resources */,
+				83EC4CC81A9115D20031C6D5 /* Main.storyboard in Resources */,
+				83EC4CCD1A9115D20031C6D5 /* LaunchScreen.xib in Resources */,
+				83EC4CCA1A9115D20031C6D5 /* Images.xcassets in Resources */,
+				83EC4CE41A91180C0031C6D5 /* odyssey flyer jpg.jpg in Resources */,
+				83EC4CE91A9221520031C6D5 /* F.Digby2.jpg in Resources */,
+				83EC4CEC1A9229220031C6D5 /* F.Digby1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83EC4CD01A9115D30031C6D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83EC4CB21A9115D20031C6D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83EC4CF01A92370D0031C6D5 /* MZTimerLabel.m in Sources */,
+				83EC4CC21A9115D20031C6D5 /* Flora_Digby.xcdatamodeld in Sources */,
+				83EC4CBF1A9115D20031C6D5 /* AppDelegate.m in Sources */,
+				83EC4CC51A9115D20031C6D5 /* ViewController.m in Sources */,
+				83EC4CBC1A9115D20031C6D5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83EC4CCE1A9115D30031C6D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83EC4CD91A9115D30031C6D5 /* Flora_DigbyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83EC4CD41A9115D30031C6D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83EC4CB51A9115D20031C6D5 /* Flora Digby */;
+			targetProxy = 83EC4CD31A9115D30031C6D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83EC4CC61A9115D20031C6D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83EC4CC71A9115D20031C6D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83EC4CCB1A9115D20031C6D5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83EC4CCC1A9115D20031C6D5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83EC4CDA1A9115D30031C6D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83EC4CDB1A9115D30031C6D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83EC4CDD1A9115D30031C6D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Flora Digby/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		83EC4CDE1A9115D30031C6D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Flora Digby/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		83EC4CE01A9115D30031C6D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Flora DigbyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flora Digby.app/Flora Digby";
+			};
+			name = Debug;
+		};
+		83EC4CE11A9115D30031C6D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Flora DigbyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flora Digby.app/Flora Digby";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83EC4CB11A9115D20031C6D5 /* Build configuration list for PBXProject "Flora Digby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83EC4CDA1A9115D30031C6D5 /* Debug */,
+				83EC4CDB1A9115D30031C6D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83EC4CDC1A9115D30031C6D5 /* Build configuration list for PBXNativeTarget "Flora Digby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83EC4CDD1A9115D30031C6D5 /* Debug */,
+				83EC4CDE1A9115D30031C6D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83EC4CDF1A9115D30031C6D5 /* Build configuration list for PBXNativeTarget "Flora DigbyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83EC4CE01A9115D30031C6D5 /* Debug */,
+				83EC4CE11A9115D30031C6D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		83EC4CC01A9115D20031C6D5 /* Flora_Digby.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				83EC4CC11A9115D20031C6D5 /* Flora_Digby.xcdatamodel */,
+			);
+			currentVersion = 83EC4CC11A9115D20031C6D5 /* Flora_Digby.xcdatamodel */;
+			path = Flora_Digby.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 83EC4CAE1A9115D20031C6D5 /* Project object */;
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A7B2A0A6-6667-4B6B-AACD-CE3723E79199</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0FFA823DC6D68553AEF26427C9CF2D0A6CF0451B</key>
+		<string>https://github.com/mineschan/MZTimerLabel.git</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0FFA823DC6D68553AEF26427C9CF2D0A6CF0451B</key>
+		<string>MZTimerLabel/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mineschan/MZTimerLabel.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0FFA823DC6D68553AEF26427C9CF2D0A6CF0451B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0FFA823DC6D68553AEF26427C9CF2D0A6CF0451B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MZTimerLabel</string>
+		</dict>
+	</array>
+</dict>
+</plist>
